@@ -2,7 +2,7 @@
 console.log('Loading function');
 const AWS = require('aws-sdk');
 const sesClient = new AWS.SES();
-const sesConfirmedAddress = "info@dylanarmstrong.net";
+const sesConfirmedAddress = "INSERT EMAIL HERE";
 
 exports.handler = (event, context, callback) => {
     console.log('Received event:', JSON.stringify(event, null, 2));
